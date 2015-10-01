@@ -1,0 +1,346 @@
+body {
+background-color: #232021;
+font-family: 'Fira Sans', sans-serif;
+}
+p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+p.medium {
+	font-size: 16px;
+}
+p.heavy {
+	font-size: 35px;
+	color: white;
+	font-weight: 500;
+}
+.section-light {
+	background-color: #f0f0f0;
+}
+.section-dark {
+	background-color: #232021;
+}
+.section-sm {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section-lg-light {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #f0f0f0;
+}
+.section-lg-dark {
+	background-color: #232021;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+span.underline {
+	height: 3px;
+	background-color: black;
+	width: 80px;
+	display: block;
+}
+span.service-title {
+	color: white;
+	font-size: 24px;
+	font-weight: 400;
+}
+nav {
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.nav-brand img {
+	height: 100px;
+}
+.nav-links ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+.nav-links li {
+	display: inline;
+	padding: 20px;
+}
+.nav-links li a{
+	font-size: 18px;
+	color: #7d7d7d;
+}
+.nav-links li a:hover {
+	color: #d92727;
+}
+.nav-links .active {
+	color: #d92727;
+}
+
+
+
+
+/* ==========================================================================
+Hero
+========================================================================== */
+.message {
+	margin-top: 30px;
+}
+.hero {
+    position: relative;
+    padding: 30px 0 30px 0;
+    min-height: 500px;
+    background: rgb(40, 70, 102) url('../img/header.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+#home {
+    width: 100%;
+    height: 100%;
+}
+.hero {
+    width: 100%;
+    height: 100%;
+}
+header i {
+    margin-left: 5px
+}
+.hero-content .big-text {
+	font-size: 72px;
+	font-weight: 700;
+	margin: 100px 0 45px 0;
+}
+
+.texture-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/grid.png);
+}
+span.small-text {
+	display: block;
+	font-size: 36px;
+	margin-top: -40px;
+	padding-bottom: 20px;
+}
+button.btn-light {
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+	border-radius: 2px;
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+}
+button.btn-light:hover {
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+	border-radius: 2px;
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+}
+button.btn-dark {
+	padding: 10px 20px 10px 20px;
+	background-color: #2a2a2a;
+	border-radius: 2px;
+	color: #2a2a2a;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+
+/* ==========================================================================
+Screenshots
+========================================================================== */
+.screenshots ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.screenshots ul li {
+    float: left;
+    min-height: 100%;
+    width: 25%;
+    background-color: #000;
+    list-style: none;
+}
+.screenshots figure {
+    position: relative;
+    overflow: hidden;
+}
+.screenshots figure img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.screenshots figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(217, 39, 39, 0.80);
+    text-align: center;
+    font-size: 14px;
+    opacity: 0;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.screenshots figcaption a {
+    color: #fff
+}
+.screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
+    opacity: 1
+}
+.visible {
+    opacity: 1
+}
+.screenshots figure.cs-hover figcaption {
+    opacity: 1
+}
+.screenshots figcaption i {
+    font-size: 35px
+}
+.screenshots figcaption p {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: white;
+}
+.screenshots figcaption .caption-content {
+	padding-top: 50px;
+    -webkit-transform: translate(0px, 15px);
+    -ms-transform: translate(0px, 15px);
+    transform: translate(0px, 15px);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.screenshots figure:hover figcaption .caption-content, .screenshots figure:focus figcaption .caption-content {
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
+/* ==========================================================================
+Download Now
+========================================================================== */
+.download {
+    background-color: #d92727;
+}
+.download h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+Features Slider
+========================================================================== */
+.features-bg {
+    position: relative;
+    min-height: 400px;
+    background: url('../img/header.jpg') no-repeat center center;
+    background-size: cover;
+}
+.features-img {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+.features-slider {
+    position: relative;
+    padding: 11% 100px 10% 100px;
+    height: 400px;
+    background-color: #3F6184;
+}
+.features-slider ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.features-slider ul li {
+    width: 100%;
+}
+.features-slider li h1 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+}
+.features-slider li p {
+    color: #fff;
+    font-size: 14px;
+}
+.features-intro-img {
+    position: relative
+}
+.slides li h1 {
+    margin: 0;
+    padding: 0;
+}
+.features-slider .flickity-page-dots {
+    text-align: left;
+    margin-top: 50px;
+    position: static;
+}
+.features-slider .flickity-page-dots .dot {
+    margin: 0 12px 0 0;
+}
+
+@media screen and (max-width:1200px){
+	.device{left:20%;top:-36px;}
+	footer li{margin-right:10%;}
+	.feature-content{width:55%;}
+}
+@media screen and (max-width:991px){
+	.feature-1,.feature-2{margin-bottom:50px;}
+	.device{display:none;}
+	.screenshots ul li{width:50%;}
+	.screenshots-intro{padding:0px 0 0px 0;}
+	.feature-content{width:80%;}
+	.features-slider{height:100%}
+}
+@media screen and (max-width:680px){
+	.feature-content{width:60%;}
+}
+@media screen and (max-width:640px){
+	.use-btn{display:none;}
+	footer li{display:block;text-align:left;padding:20px 0;border-bottom:dashed 1px #c7cacc;margin-right:0!important;float:none;}
+	nav{margin-top:40px;}
+	.overlay ul{margin-left:0px;}
+	.overlay ul li a{padding:20px 0;min-width:120px;font-size:12px;}
+}
+@media screen and (max-width:465px){
+	.hero h1{font-size:40px;margin:100px 0 45px 0}
+	.screenshots ul li{width:100%;min-height:100%;float:none;}
+	section.video i{font-size:30px;}
+	section.video h1{font-size:15px;font-weight:400;}
+	section.video{padding:40px;}
+	.feature-content{width:100%;text-align:center;margin-top:20px;}
+	.feature-icon{display:block;margin:0 auto;}
+	blockquote p{width:60%;}
+	.features-slider {padding: 11% 50px 10% 50px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
